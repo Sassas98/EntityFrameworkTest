@@ -16,7 +16,7 @@ namespace EntityFrameworkTest.Data {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
             optionsBuilder
                 //.UseLazyLoadingProxies()
-                .UseMySQL("Server = localhost; Database = sys; Uid = root; Pwd = K0rv@ire;");
+                .UseMySQL("Server = localhost; Database = sys; Uid = root; Pwd = ???;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
